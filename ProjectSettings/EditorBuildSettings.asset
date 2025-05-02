@@ -12,5 +12,8 @@ EditorBuildSettings:
     path: Assets/Scenes/HouseInside.unity
     guid: d5cef71ef9c98d08195b9fc8289be846
   m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 1852992a497494c4baf84113baa0cbf1, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: dbab5cbbce35e21439e4e1d691f2b1bf, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: f2075b63c64dc924298b53735054605e, type: 2}
   m_UseUCBPForAssetBundles: 0
