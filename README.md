@@ -1,17 +1,18 @@
-## Virtuelle Realität und 3D Interaktion 
+## Virtuelle Realität und 3D Interaktion 
 ### Übung 1 - Impossible Spaces
 
 #### Samira Jost, Jessica Schiffer, Leonardo Richertz, Pavlo Pustovoit
 
 ## Projektübersicht
 
-Dieses Projekt ist Teil einer Übungsabgabe und demonstriert das faszinierende Konzept eines "Impossible Space" in der virtuellen Realität. Durch eine geschickte optische Täuschung wird der Eindruck erzeugt, dass der Nutzer beim Betreten eines Hauses plötzlich zu gigantischer Größe heranwächst.
+Dieses Projekt ist Teil einer Übungsabgabe und demonstriert das Konzept eines "Impossible Space" in der virtuellen Realität. Durch eine optische Täuschung entsteht der Eindruck, dass sich der Benutzer beim Betreten eines kleinen Hauses plötzlich in einem großen Haus befindet.
+
 
 ## Hauptfunktionen
 
 - **Optische Täuschung**: Die Anwendung nutzt eine Skalierungstechnik, um den Nutzer glauben zu lassen, das Haus sei vergrößern
-- **Nahtlose Teleportation**: Beim Betreten und Verlassen des Hauses wird der Benutzer unbemerkt an verschiedene Stellen der virtuellen Welt teleportiert
-- **Immersives Erlebnis**: Sorgfältig gestaltete Umgebung verstärkt den Effekt der Größenveränderung
+- **Nahtlose Teleportation**: Beim Betreten und Verlassen des Hauses wird der Benutzer an verschiedene Stellen der virtuellen Welt teleportiert
+- **Immersives Erlebnis**: Gestaltete Umgebung verstärkt den Effekt der Größenveränderung
 
 ## Technische Umsetzung
 
@@ -30,7 +31,7 @@ Die Navigation in der Anwendung erfolgt über:
 
 Weitere Steuerungshinweise werden direkt in der Anwendung angezeigt.
 
-##  Verwendete Assets
+##  Verwendete Assets
 
 Zur visuellen Gestaltung wurden folgende Ressourcen verwendet:
 
@@ -39,6 +40,7 @@ Zur visuellen Gestaltung wurden folgende Ressourcen verwendet:
   
 - **XR Interaction Toolkit**: [Dokumentation](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@2.4/manual/samples.html)
   - Implementierung des XR Origin Camera Rigs und der Interaktionsmöglichkeiten
+
 
 ## Installation und Start
 
@@ -49,5 +51,5 @@ Zur visuellen Gestaltung wurden folgende Ressourcen verwendet:
 
 ---
 
+
 *Dieses Projekt wurde im Rahmen einer Übungsabgabe zum Thema "Impossible Spaces" in virtuellen Umgebungen erstellt.*
- 
