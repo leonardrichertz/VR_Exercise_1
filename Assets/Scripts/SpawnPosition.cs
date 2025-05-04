@@ -15,9 +15,9 @@ public class SpawnPosition : MonoBehaviour
     void PickRandomPosition()
     {
         Transform spawnPosition = spawnPositions[Random.Range(0, 2)];
-        player.position = spawnPosition.position;
+        //player.position = spawnPosition.position;
         camera.position = spawnPosition.position;
-        player.rotation = spawnPosition.rotation;
+        //player.rotation = spawnPosition.rotation;
         camera.rotation = spawnPosition.rotation;
     }
 }
