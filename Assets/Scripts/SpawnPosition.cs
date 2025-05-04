@@ -12,9 +12,21 @@ public class SpawnPosition : MonoBehaviour
         PickRandomPosition();
     }
 
+    /*void OnEnable()
+    {
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
+    void OnDisable()
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+    }*/
+
     void PickRandomPosition()
     {
-        Transform spawnPosition = spawnPositions[Random.Range(0, 2)];
+        int newPos = Random.Range(0, 2);
+        Transform spawnPosition = spawnPositions[0];
+        Debug.Log(newPos+1);
         //player.position = spawnPosition.position;
         camera.position = spawnPosition.position;
         //player.rotation = spawnPosition.rotation;
