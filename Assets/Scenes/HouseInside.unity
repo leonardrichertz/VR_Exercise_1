@@ -914,6 +914,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   doorIndex: 3
+  vr: 0
 --- !u!1 &1775063135
 GameObject:
   m_ObjectHideFlags: 0
@@ -1239,6 +1240,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   doorIndex: 2
+  vr: 0
 --- !u!1001 &1936849245
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1248,12 +1250,24 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 55506132640855994, guid: 4cba2c3f0943000458f6685b241ed3a6, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 55506132640855994, guid: 4cba2c3f0943000458f6685b241ed3a6, type: 3}
       propertyPath: m_EnableFly
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 55506132640855994, guid: 4cba2c3f0943000458f6685b241ed3a6, type: 3}
       propertyPath: m_MoveSpeed
-      value: 0
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 55506132640855994, guid: 4cba2c3f0943000458f6685b241ed3a6, type: 3}
+      propertyPath: m_LeftHandMovementDirection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 55506132640855994, guid: 4cba2c3f0943000458f6685b241ed3a6, type: 3}
+      propertyPath: m_RightHandMovementDirection
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 581331731138732649, guid: 4cba2c3f0943000458f6685b241ed3a6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1580,6 +1594,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   doorIndex: 1
+  vr: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
